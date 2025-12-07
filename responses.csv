@@ -1,0 +1,114 @@
+id,question,canonical_answer,condition,model_name,response,timestamp
+1,What is the time complexity of binary search?,O(log n),C_base,gpt-4.1-mini,"The time complexity of binary search is **O(log n)**, where *n* is the number of elements in the sorted array or list being searched. This is because binary search repeatedly divides the search interval in half, reducing the problem size exponentially until the target element is found or the interval is empty.",2025-12-07T23:05:30.336171
+1,What is the time complexity of binary search?,O(log n),C_uncertainty,gpt-4.1-mini,"The time complexity of binary search is **O(log n)**, where *n* is the number of elements in the sorted array or list being searched.
+
+Explanation:
+- Binary search works by repeatedly dividing the search interval in half.
+- Each comparison eliminates half of the remaining elements.
+- Therefore, the number of steps needed to find the target (or determine it is not present) grows logarithmically with the size of the input.
+
+If you have any more questions about binary search or algorithms, feel free to ask!",2025-12-07T23:05:32.320809
+2,What does HTTP stand for?,Hypertext Transfer Protocol,C_base,gpt-4.1-mini,HTTP stands for HyperText Transfer Protocol.,2025-12-07T23:05:32.811163
+2,What does HTTP stand for?,Hypertext Transfer Protocol,C_uncertainty,gpt-4.1-mini,"HTTP stands for HyperText Transfer Protocol. It is the foundation of data communication on the World Wide Web, used for transmitting hypertext documents such as web pages.",2025-12-07T23:05:34.273352
+3,In Big-O notation,what is the time complexity of linear search?,C_base,gpt-4.1-mini,"Big-O notation is a mathematical notation used to describe the upper bound of an algorithm's running time or space requirements in terms of the input size. It characterizes the worst-case growth rate, helping to understand how the performance of an algorithm scales as the input size increases.
+
+For example:
+- **O(1)**: Constant time — the algorithm takes the same amount of time regardless of input size.
+- **O(log n)**: Logarithmic time — the time grows logarithmically with input size.
+- **O(n)**: Linear time — the time grows linearly with input size.
+- **O(n log n)**: Linearithmic time — grows faster than linear but slower than quadratic.
+- **O(n²)**: Quadratic time — time grows proportionally to the square of the input size.
+
+If you have a specific algorithm or function you'd like to analyze or understand in terms of Big-O notation, please provide details!",2025-12-07T23:05:38.259062
+3,In Big-O notation,what is the time complexity of linear search?,C_uncertainty,gpt-4.1-mini,"Could you please provide more details or specify what aspect of Big-O notation you would like to know about? For example, are you interested in its definition, how to calculate it, examples, or something else? This will help me give you a precise and helpful explanation.",2025-12-07T23:05:39.515265
+4,What does CPU stand for?,Central Processing Unit,C_base,gpt-4.1-mini,CPU stands for Central Processing Unit.,2025-12-07T23:05:40.082435
+4,What does CPU stand for?,Central Processing Unit,C_uncertainty,gpt-4.1-mini,CPU stands for Central Processing Unit. It is the primary component of a computer that performs most of the processing inside the computer.,2025-12-07T23:05:40.885091
+5,What is the main data structure used in a stack?,Last in first out (LIFO) structure,C_base,gpt-4.1-mini,"The main data structure used in a stack is typically a **linked list** or an **array**. Both can efficiently implement the Last In, First Out (LIFO) behavior of a stack.",2025-12-07T23:05:41.821247
+5,What is the main data structure used in a stack?,Last in first out (LIFO) structure,C_uncertainty,gpt-4.1-mini,"The main data structure used in a stack is typically a **linked list** or an **array**. 
+
+- When implemented with an **array**, the stack uses a contiguous block of memory, and a pointer (or index) keeps track of the top element.
+- When implemented with a **linked list**, each element (node) points to the next, and the top of the stack is the head of the list.
+
+Both implementations support the core stack operations: **push** (add an element), **pop** (remove the top element), and **peek** (view the top element) efficiently.
+
+So, the stack itself is an abstract data type, and arrays or linked lists are common underlying data structures used to implement it.",2025-12-07T23:05:45.133598
+6,What does RAM stand for?,Random Access Memory,C_base,gpt-4.1-mini,RAM stands for Random Access Memory.,2025-12-07T23:05:46.004613
+6,What does RAM stand for?,Random Access Memory,C_uncertainty,gpt-4.1-mini,"RAM stands for Random Access Memory. It is a type of computer memory that can be accessed randomly, meaning any byte of memory can be accessed without touching the preceding bytes. RAM is used by computers to store data that is being actively used or processed, allowing for quick read and write access.",2025-12-07T23:05:47.120958
+7,What is the main purpose of a DNS server?,To translate domain names into IP addresses,C_base,gpt-4.1-mini,The main purpose of a DNS (Domain Name System) server is to translate human-readable domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the internet. This allows users to access websites using easy-to-remember names instead of numerical IP addresses.,2025-12-07T23:05:48.561957
+7,What is the main purpose of a DNS server?,To translate domain names into IP addresses,C_uncertainty,gpt-4.1-mini,"The main purpose of a DNS (Domain Name System) server is to translate human-readable domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network. This process is called ""name resolution."" By doing this, DNS servers make it easier for users to access websites and other resources on the internet without needing to remember complex numerical IP addresses.",2025-12-07T23:05:50.069554
+8,Which data structure typically uses first in first out behaviour?,Queue,C_base,gpt-4.1-mini,"The data structure that typically uses first-in, first-out (FIFO) behavior is a **queue**.",2025-12-07T23:05:50.816198
+8,Which data structure typically uses first in first out behaviour?,Queue,C_uncertainty,gpt-4.1-mini,"The data structure that typically uses First In, First Out (FIFO) behavior is a **queue**. In a queue, the first element added is the first one to be removed, similar to a line of people waiting where the person who arrives first is served first.",2025-12-07T23:05:52.131804
+9,Which sorting algorithm repeatedly divides an array into halves then merges them in order?,Merge sort,C_base,gpt-4.1-mini,The sorting algorithm that repeatedly divides an array into halves and then merges them in order is **Merge Sort**.,2025-12-07T23:05:53.195169
+9,Which sorting algorithm repeatedly divides an array into halves then merges them in order?,Merge sort,C_uncertainty,gpt-4.1-mini,"The sorting algorithm that repeatedly divides an array into halves and then merges them in order is called **Merge Sort**. 
+
+Merge Sort works by:
+1. Dividing the array into two halves.
+2. Recursively sorting each half.
+3. Merging the two sorted halves back together into a single sorted array.
+
+It's a classic example of the divide-and-conquer approach and has a time complexity of O(n log n).",2025-12-07T23:05:54.467686
+10,What SQL command is used to retrieve data from a table?,SELECT,C_base,gpt-4.1-mini,"The SQL command used to retrieve data from a table is the **SELECT** statement. 
+
+Example:
+```sql
+SELECT * FROM table_name;
+```
+This command retrieves all columns and rows from the specified table.",2025-12-07T23:05:55.476399
+10,What SQL command is used to retrieve data from a table?,SELECT,C_uncertainty,gpt-4.1-mini,"The SQL command used to retrieve data from a table is the **SELECT** statement. 
+
+For example:
+```sql
+SELECT * FROM table_name;
+```
+This command retrieves all columns and rows from the specified table. You can also specify particular columns:
+```sql
+SELECT column1, column2 FROM table_name;
+```
+
+If you want more details or examples, feel free to ask!",2025-12-07T23:05:56.836164
+11,In computer networking what does TCP stand for?,Transmission Control Protocol,C_base,gpt-4.1-mini,"In computer networking, TCP stands for Transmission Control Protocol.",2025-12-07T23:05:57.449508
+11,In computer networking what does TCP stand for?,Transmission Control Protocol,C_uncertainty,gpt-4.1-mini,"In computer networking, TCP stands for Transmission Control Protocol. It is one of the main protocols of the Internet protocol suite and is used to establish a reliable connection between devices for data transmission.",2025-12-07T23:05:58.329089
+12,What is the binary representation of the decimal number 5?,101,C_base,gpt-4.1-mini,The binary representation of the decimal number 5 is **101**.,2025-12-07T23:05:59.557031
+12,What is the binary representation of the decimal number 5?,101,C_uncertainty,gpt-4.1-mini,The binary representation of the decimal number 5 is **101**.,2025-12-07T23:06:00.606090
+13,What does HTML stand for?,HyperText Markup Language,C_base,gpt-4.1-mini,HTML stands for HyperText Markup Language.,2025-12-07T23:06:01.140613
+13,What does HTML stand for?,HyperText Markup Language,C_uncertainty,gpt-4.1-mini,HTML stands for HyperText Markup Language. It is the standard language used to create and design pages on the web.,2025-12-07T23:06:01.917309
+14,Which component of the CPU performs arithmetic and logical operations?,Arithmetic Logic Unit (ALU),C_base,gpt-4.1-mini,The Arithmetic Logic Unit (ALU) is the component of the CPU that performs arithmetic and logical operations.,2025-12-07T23:06:03.532446
+14,Which component of the CPU performs arithmetic and logical operations?,Arithmetic Logic Unit (ALU),C_uncertainty,gpt-4.1-mini,The component of the CPU that performs arithmetic and logical operations is called the Arithmetic Logic Unit (ALU).,2025-12-07T23:06:04.187164
+15,In programming what does the acronym OOP stand for?,Object Oriented Programming,C_base,gpt-4.1-mini,"In programming, the acronym OOP stands for Object-Oriented Programming.",2025-12-07T23:06:05.173601
+15,In programming what does the acronym OOP stand for?,Object Oriented Programming,C_uncertainty,gpt-4.1-mini,"In programming, the acronym OOP stands for ""Object-Oriented Programming."" It is a programming paradigm based on the concept of ""objects,"" which can contain data in the form of fields (often known as attributes or properties) and code in the form of procedures (often known as methods). OOP focuses on organizing software design around data, or objects, rather than functions and logic.",2025-12-07T23:06:06.471603
+16,What is the time complexity of accessing an element in an array by index?,O(1),C_base,gpt-4.1-mini,"The time complexity of accessing an element in an array by index is **O(1)**, also known as constant time. This is because arrays provide direct access to any element using its index, without needing to traverse other elements.",2025-12-07T23:06:08.012323
+16,What is the time complexity of accessing an element in an array by index?,O(1),C_uncertainty,gpt-4.1-mini,"The time complexity of accessing an element in an array by its index is **O(1)**, also known as constant time.
+
+This is because arrays provide direct access to their elements via indexing. Given the base address of the array and the size of each element, the memory address of any element can be computed directly using the formula:
+
+```
+address = base_address + (index * size_of_element)
+```
+
+This calculation takes a constant amount of time regardless of the size of the array, allowing immediate access to the element.",2025-12-07T23:06:09.880644
+17,What protocol is used to securely transfer web pages over the internet?,HTTPS,C_base,gpt-4.1-mini,The protocol used to securely transfer web pages over the internet is HTTPS (HyperText Transfer Protocol Secure). It encrypts the data exchanged between the web browser and the server using SSL/TLS to ensure privacy and security.,2025-12-07T23:06:10.793462
+17,What protocol is used to securely transfer web pages over the internet?,HTTPS,C_uncertainty,gpt-4.1-mini,"The protocol used to securely transfer web pages over the internet is **HTTPS** (HyperText Transfer Protocol Secure). HTTPS encrypts the data exchanged between your web browser and the web server using protocols like SSL (Secure Sockets Layer) or TLS (Transport Layer Security), ensuring privacy and data integrity.",2025-12-07T23:06:11.872639
+18,Which layer of the OSI model is responsible for routing packets between networks?,Network layer,C_base,gpt-4.1-mini,The Network layer (Layer 3) of the OSI model is responsible for routing packets between different networks.,2025-12-07T23:06:13.006280
+18,Which layer of the OSI model is responsible for routing packets between networks?,Network layer,C_uncertainty,gpt-4.1-mini,"The layer of the OSI model responsible for routing packets between networks is the Network layer, which is Layer 3. This layer handles logical addressing and determines the best path for data to travel across interconnected networks.",2025-12-07T23:06:13.860773
+19,In many languages what is a variable called when it is declared but not given a value?,Uninitialised variable,C_base,gpt-4.1-mini,"In many programming languages, a variable that is declared but not given a value is often called **uninitialized**. This means the variable exists but does not yet hold a defined or meaningful value.",2025-12-07T23:06:15.520927
+19,In many languages what is a variable called when it is declared but not given a value?,Uninitialised variable,C_uncertainty,gpt-4.1-mini,"In many programming languages, a variable that is declared but not given a value is often called **""uninitialized.""** This means the variable exists in memory but hasn't been assigned a specific value yet. Depending on the language, accessing an uninitialized variable can lead to different behaviors:
+
+- In some languages (like C or C++), the variable may contain a garbage or indeterminate value.
+- In others (like Java or Python), the variable might have a default value (e.g., `null` or `None`).
+- Some languages may raise an error if you try to use an uninitialized variable.
+
+So, the general term is **uninitialized variable**. If you want to be sure about a specific language, you might want to check its documentation.",2025-12-07T23:06:18.298170
+20,In Git which command creates a local copy of a remote repository?,git clone,C_base,gpt-4.1-mini,"The Git command that creates a local copy of a remote repository is:
+
+```
+git clone <repository-url>
+```
+
+This command downloads the entire repository from the remote URL to your local machine.",2025-12-07T23:06:19.365626
+20,In Git which command creates a local copy of a remote repository?,git clone,C_uncertainty,gpt-4.1-mini,"In Git, the command that creates a local copy of a remote repository is:
+
+```
+git clone <repository-url>
+```
+
+This command copies the entire repository, including its history, from the remote location to your local machine.",2025-12-07T23:06:20.234500
